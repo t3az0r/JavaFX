@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.09.2014, 17:05:45
+    Author     : cthies
+https://www.youtube.com/watch?v=f8_f8iF2T0g&feature=player_detailpage
+https://www.youtube.com/watch?feature=player_detailpage&v=jY6yBTYxLko
+*/
+
+.root {
+    -fx-background-image: url("background.jpg");
+    -fx-text-alignment: justify;
+}
+
+#grid {
+    text-align: justify;
+    -fx-text-alignment: justify;
+}
+
+#welcome-text {
+    text-align: justify;
+    -fx-text-alignment: justify;
+    -fx-font-size: 48px;
+    -fx-font-family: "OCR A Extended";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#welcome-subtext {
+    text-align: justify;
+   -fx-text-alignment: justify;
+   -fx-font-size: 36px;
+   -fx-font-family: "OCR A Extended";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#list-subtext {
+    text-align: left;
+   -fx-text-alignment: left;
+   -fx-font-size: 24px;
+   -fx-font-family: "OCR A Extended";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
